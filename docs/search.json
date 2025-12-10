@@ -1,16 +1,16 @@
 [
   {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Hi, I’m Kyle. I’ve always been drawn to the places where people, landscapes, and science overlap. Growing up with a love for the outdoors, I found myself happiest exploring rivers, mountains, and the ecosystems that connect them. That interest eventually guided my academic and professional path from computer science and IT to hands-on fieldwork, outdoor leadership, and now graduate study in Ecosystem Science and Sustainability.\nI’m especially passionate about watershed science, water quality, and understanding how ecological processes shape the world we depend on. Whether I’m rafting down the Animas, snowboarding in the San Juans, or working on local conservation projects, I’m constantly inspired by the natural systems I get to study and explore. These experiences motivate me to help protect water resources and support resilient communities in the West.\nMy work blends analytical thinking with field experience: using data modeling, GIS, and problem-solving to make sense of complex environmental issues, while staying connected to the landscapes I care about through outdoor work and recreation. I’m excited to build a career in water resources, hydrology, or watershed management where I can combine science, technology, and an appreciation for nature.\nOutside of school and work, you’ll usually find me snowboarding, rafting, hiking with my dog Summit, or discovering new corners of the Southwest’s diverse ecosystems."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "kylerobinette23-personal-website",
     "section": "",
     "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
   }
 ]

@@ -1,5 +1,17 @@
 ---
 title: "kylerobinette23-personal-website"
+image: MTN_CMPS.jpg
+about: 
+  template: jolla
+  image-shape: rounded
+  image-width: 15em
+  links:
+    - text: LinkedIn
+      href: https://linkedin.com/in/kyle-robinette
+    - text: GitHub
+      href: https://github.com/kylerobinette23
+    - text: Email
+      href: mailto:kyle.robinette@colostate.edu
 ---
 
 This is a Quarto website.
