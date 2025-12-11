@@ -1,9 +1,9 @@
 ---
-title: "kylerobinette23-personal-website"
-image: MTN_CMPS.jpg
+title: "Kyle Robinette"
+image: IMG_8510.jpg
 about: 
   template: jolla
-  image-shape: rounded
+  image-shape: round
   image-width: 15em
   links:
     - text: LinkedIn
@@ -14,10 +14,18 @@ about:
       href: mailto:kyle.robinette@colostate.edu
 ---
 
-This is a Quarto website.
+### Graduate Student · River Guide · Eco-Data Enthusiast
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+Welcome to my personal website! I built this to document my graduate journey.
 
-```{r}
-1 + 1
-```
+### Education
+
+Colorado State University – Fort Collins, CO \| Professional Science Master’s (PSM), Ecosystem Science and Sustainability (2026)
+
+Colorado State University – Fort Collins, CO \| Bachelor of Science, Computer Science Minor: Mathematics (2018-2021)
+
+### My Goals
+
+-   Build a strong portfolio of geospatial and ecological data projects
+-   Become confident in environmental modelling and spatial workflows
+-   Work in conservation GIS, restoration, or federal/state resource management

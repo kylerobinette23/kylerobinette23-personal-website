@@ -1,16 +1,51 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
     "section": "",
-    "text": "Hi, I’m Kyle. I’ve always been drawn to the places where people, landscapes, and science overlap. Growing up with a love for the outdoors, I found myself happiest exploring rivers, mountains, and the ecosystems that connect them. That interest eventually guided my academic and professional path from computer science and IT to hands-on fieldwork, outdoor leadership, and now graduate study in Ecosystem Science and Sustainability.\nI’m especially passionate about watershed science, water quality, and understanding how ecological processes shape the world we depend on. Whether I’m rafting down the Animas, snowboarding in the San Juans, or working on local conservation projects, I’m constantly inspired by the natural systems I get to study and explore. These experiences motivate me to help protect water resources and support resilient communities in the West.\nMy work blends analytical thinking with field experience: using data modeling, GIS, and problem-solving to make sense of complex environmental issues, while staying connected to the landscapes I care about through outdoor work and recreation. I’m excited to build a career in water resources, hydrology, or watershed management where I can combine science, technology, and an appreciation for nature.\nOutside of school and work, you’ll usually find me snowboarding, rafting, hiking with my dog Summit, or discovering new corners of the Southwest’s diverse ecosystems."
+    "text": "Rocky Mountain NP Glacier–Stream Map\nR, sf, tmap, elevatr\nView »\nWater Quality & Discharge Modeling\ntidyverse, purrr, nested models\nView »\nColorado Water Court Case Analysis\nWriting sample\nView »"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "kylerobinette23-personal-website",
+    "title": "Kyle Robinette",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "Graduate Student · River Guide · Eco-Data Enthusiast\nWelcome to my personal website! I built this to document my graduate journey.\n\n\nEducation\nColorado State University – Fort Collins, CO | Professional Science Master’s (PSM), Ecosystem Science and Sustainability (2026)\nColorado State University – Fort Collins, CO | Bachelor of Science, Computer Science Minor: Mathematics (2018-2021)\n\n\nMy Goals\n\nBuild a strong portfolio of geospatial and ecological data projects\nBecome confident in environmental modelling and spatial workflows\nWork in conservation GIS, restoration, or federal/state resource management"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Hi, I’m Kyle. I’ve always been drawn to the places where people, landscapes, and science overlap. Growing up with a love for the outdoors, I found myself happiest exploring rivers, mountains, and the ecosystems that connect them. That interest eventually guided my academic and professional path from computer science and IT to hands-on fieldwork, outdoor leadership, and now graduate study in Ecosystem Science and Sustainability.\nI’m especially passionate about watershed science, water quality, and understanding how ecological processes shape the world we depend on. Whether I’m rafting down the Animas, snowboarding in the San Juans, or working on local conservation projects, I’m constantly inspired by the natural systems I get to study and explore. These experiences motivate me to help protect water resources and support resilient communities in the West.\nMy work blends analytical thinking with field experience: using data modeling, GIS, and problem-solving to make sense of complex environmental issues, while staying connected to the landscapes I care about through outdoor work and recreation. I’m excited to build a career in water resources, hydrology, or watershed management where I can combine science, technology, and an appreciation for nature.\nOutside of school and work, you’ll usually find me snowboarding, rafting, hiking with my dog Summit, or discovering new corners of the Southwest’s diverse ecosystems.\nDownload My Résumé\n\n\n\nGuiding a group down Clear Creek\n\n\n\n\n\nTaking tree measurments for post fire data analysis"
+  },
+  {
+    "objectID": "analysis.html",
+    "href": "analysis.html",
+    "title": "ESS 523A Colorado River Basin Water Quality Analysis",
+    "section": "",
+    "text": "Strengthened R and data analysis skills through cleaning, visualizing, and modeling environmental data.\nGained hands-on experience with hydrology and water quality processes, connecting model outputs to real-world management questions.\nImproved technical communication by summarizing results in clear visuals and narratives for broader audiences."
+  },
+  {
+    "objectID": "analysis.html#significant-relationships-between-discharge-and-ion-concentration",
+    "href": "analysis.html#significant-relationships-between-discharge-and-ion-concentration",
+    "title": "ESS 523A Colorado River Basin Water Quality Analysis",
+    "section": "",
+    "text": "Strengthened R and data analysis skills through cleaning, visualizing, and modeling environmental data.\nGained hands-on experience with hydrology and water quality processes, connecting model outputs to real-world management questions.\nImproved technical communication by summarizing results in clear visuals and narratives for broader audiences."
+  },
+  {
+    "objectID": "map.html",
+    "href": "map.html",
+    "title": "ESS 523A Geospacial Visualization",
+    "section": "",
+    "text": "Built core GIS skills including data cleaning, layer management, and map design.\nTranslated ecological information into clear visual communication, improving my ability to present spatial insights.\nDeveloped reliable project workflows, including sourcing quality data and documenting the process for reproducibility."
+  },
+  {
+    "objectID": "map.html#rocky-mountain-np-glacier-stream-connectivity-map",
+    "href": "map.html#rocky-mountain-np-glacier-stream-connectivity-map",
+    "title": "ESS 523A Geospacial Visualization",
+    "section": "",
+    "text": "Built core GIS skills including data cleaning, layer management, and map design.\nTranslated ecological information into clear visual communication, improving my ability to present spatial insights.\nDeveloped reliable project workflows, including sourcing quality data and documenting the process for reproducibility."
   }
 ]

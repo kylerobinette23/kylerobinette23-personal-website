@@ -1,3 +1,15 @@
 ---
 title: "Projects"
 ---
+
+**Rocky Mountain NP Glacier–Stream Map**\
+*R, sf, tmap, elevatr*\
+[View »](map.qmd)
+
+**Water Quality & Discharge Modeling**\
+*tidyverse, purrr, nested models*\
+[View »](analysis.qmd)
+
+**Colorado Water Court Case Analysis**\
+*Writing sample*\
+[View »](Colorado%20Water%20Court%20Case%20Analysis.docx)

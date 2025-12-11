@@ -1,1 +1,113 @@
 /* css styles */
+/* ================================
+   GLOBAL COLORS (Wine Theme)
+   ================================ */
+:root {
+  --wine-dark: #4a0e23;      /* deep wine */
+  --wine-medium: #7b1e3a;    /* mid wine */
+  --wine-light: #c94f70;     /* rose/wine highlight */
+  --cream: #f5f1ee;          /* warm background */
+  --offwhite: #fcfaf9;
+  --text-dark: #2b2b2b;
+  --text-light: #ffffff;
+}
+
+/* ================================
+   BODY & TEXT
+   ================================ */
+body {
+  background-color: var(--cream);
+  color: var(--text-dark);
+  margin: 0;
+  font-family: "Inter", "Segoe UI", Roboto, sans-serif;
+  line-height: 1.6;
+}
+
+/* ================================
+   HEADINGS
+   ================================ */
+h1, h2, h3, h4 {
+  font-family: "Merriweather", serif;
+  color: var(--wine-dark);
+  font-weight: 700;
+}
+
+/* ================================
+   LINKS
+   ================================ */
+a {
+  color: var(--wine-medium);
+  text-decoration: none;
+}
+a:hover {
+  color: var(--wine-light);
+  text-decoration: underline;
+}
+
+/* ================================
+   NAVIGATION BAR
+   ================================ */
+.navbar, .navbar-nav, .quarto-navbar {
+  background-color: var(--wine-dark) !important;
+  color: var(--text-light) !important;
+}
+
+.navbar a,
+.quarto-navbar a {
+  color: var(--offwhite) !important;
+}
+
+.navbar a:hover,
+.quarto-navbar a:hover {
+  color: var(--wine-light) !important;
+}
+
+/* ================================
+   CODE BLOCKS
+   ================================ */
+pre, code {
+  background-color: #f0e6e8;
+  border-left: 3px solid var(--wine-medium);
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+
+/* ================================
+   BUTTONS
+   ================================ */
+button, .btn {
+  background-color: var(--wine-medium);
+  color: var(--text-light);
+  border-radius: 4px;
+  padding: 0.6em 1.2em;
+  border: none;
+}
+
+button:hover, .btn:hover {
+  background-color: var(--wine-light);
+}
+
+/* ================================
+   PROJECT CARDS / BOXES
+   ================================ */
+.card, .project-box {
+  background: var(--offwhite);
+  border-left: 5px solid var(--wine-light);
+  padding: 1rem;
+  border-radius: 6px;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+}
+
+/* ================================
+   FOOTER
+   ================================ */
+footer {
+  background-color: var(--wine-dark);
+  color: var(--text-light);
+  text-align: center;
+  padding: 1.2rem;
+  font-size: 0.9em;
+}
+
