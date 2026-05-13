@@ -1,6 +1,7 @@
 ---
 title: "About"
 ---
+
 ![](IMG_3658.jpg){width="200px" style="border-radius: 50%;"}
 
 Hi, I’m Kyle. I’ve always been drawn to the places where people, landscapes, and science overlap. Growing up with a love for the outdoors, I found myself happiest exploring rivers, mountains, and the ecosystems that connect them. That interest eventually guided my academic and professional path from computer science and IT to hands-on fieldwork, outdoor leadership, and now graduate study in Ecosystem Science and Sustainability.
