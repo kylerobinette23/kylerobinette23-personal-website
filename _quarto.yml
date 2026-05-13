@@ -9,20 +9,8 @@ website:
       - href: index.qmd
         text: Home
       - about.qmd
-      - text: Projects
-        menu:
-          - projects.qmd
-          - text: "---"
-          - text: "Colorado River Hydrology"
-          - href: "https://kylerobinette23.github.io/csu-523c/lab-01.html"
-          - text: "Spacial Analysis: Distances and Projections"
-          - href: "https://kylerobinette23.github.io/csu-523c/lab-02.html"
-          - text: "Modifiable areal unit problem - Polygons & Tessellations"
-          - href: "https://kylerobinette23.github.io/csu-523c/lab-03.html"
-          - text: "Rasters & Remote Sensing"
-          - href: "https://kylerobinette23.github.io/csu-523c/lab-04.html"
-          - text: "Machine Learning in Hydrology"
-          - href: "https://kylerobinette23.github.io/csu-523c/lab-05.html"
+      - projects.qmd
+        
 
 format:
   html:

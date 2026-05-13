@@ -1,5 +1,5 @@
 ---
-title: "Project Details"
+title: "Projects"
 ---
 
 #### **Colorado River Hydrology** 
