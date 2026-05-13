@@ -11,8 +11,10 @@ My work blends analytical thinking with field experience: using data modeling, G
 
 Outside of school and work, you’ll usually find me snowboarding, rafting, hiking with my dog Summit, or discovering new corners of the Southwest’s diverse ecosystems.
 
-[Download My Résumé](ResumeEcoAssistant.pdf){.btn .btn-primary}
+[Download My Résumé](ROSS_Resume.pdf){.btn .btn-primary}
 
 ![Guiding a group down Clear Creek](IMG_8575.jpg)
 
 ![Taking tree measurments for post fire data analysis](MTN_CMPS.jpg)
+
+![Taking stream discharge measurments to analyze Beaver Dam Analoge impacts](IMG_4019.JPG)

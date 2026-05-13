@@ -1,15 +1,89 @@
 ---
-title: "Projects"
+title: "Project Details"
 ---
 
-**Rocky Mountain NP Glacier–Stream Map**\
-*R, sf, tmap, elevatr*\
-[View »](map.qmd)
+#### **Colorado River Hydrology** 
 
-**Water Quality & Discharge Modeling**\
-*tidyverse, purrr, nested models*\
-[View »](analysis.qmd)
+*Analysis of flow trends, peak timing, and predictive modeling at Lees Ferry*
 
-**Colorado Water Court Case Analysis**\
-*Writing sample*\
-[View »](Colorado%20Water%20Court%20Case%20Analysis.docx)
+-   **Reproducible Workflow**: Built a fully transparent and reproducible data pipeline using Quarto, Git, and GitHub Pages.
+
+-   **API Data Ingestion**: Mastered the dataRetrieval package to pull live USGS streamflow data for the Colorado River basin.
+
+-   **Hydrologic Time-Series Analysis**: Processed daily discharge into Water Year and Seasonal aggregates to analyze long-term trends and the impact of the 21st-century drought.
+
+-   **Visualized**: basin-wide trends with a standardized anomaly heatmap and a flow-weighted spatial center analysis
+
+-   **Modeled**: the upstream-downstream relationship at the Compact’s accounting point
+
+-   **Evaluated**: model assumptions and identified the outlier year the model couldn’t predict
+
+[View »](https://kylerobinette23.github.io/csu-523c/lab-01.html){.btn .btn-primary}
+
+#### **Spacial Analysis: Distances and Projections** 
+
+*Spatial analysis of urban demographic exposure within the 100-mile federal border jurisdiction*
+
+-   **Built** spatial datasets from three different sources: a CRAN package (tigris), a data package (rnaturalearth), and a downloaded CSV.
+
+-   **Transformed** coordinate reference systems and selected a projection appropriate for national-scale distance analysis
+
+-   **Manipulated** geometry types — understanding when to use st_union vs. st_combine, and why casting to MULTILINESTRING is required before computing distances to borders
+
+-   **Computed** four sets of distances using st_distance() and stored them as labeled unit vectors
+
+-   **Visualized** spatial patterns with continuous color scales, gghighlight, and ggrepel
+
+-   **Built** an interactive web map using leaflet to present distance data to a general audience
+
+[View »](https://kylerobinette23.github.io/csu-523c/lab-02.html){.btn .btn-primary}
+
+#### **Modifiable areal unit problem - Polygons & Tessellations** 
+
+*Multi-scale assessment of U.S. dam distribution using advanced spatial statistics and custom tessellation workflows*
+
+-   **Tessellation Analysis**: Optimized spatial support by comparing hexagonal grids and administrative units to minimize geometric bias.
+
+-   **MAUP Mitigation**: Quantified the Modifiable Areal Unit Problem to isolate "zoning effects" from true geographic infrastructure density.
+
+-   **Spatial Autocorrelation**: Applied Global Moran’s I to identify strong regional clustering across the U.S. dam network.
+
+-   **LISA Hotspot Mapping**: Developed Local Indicators of Spatial Association maps to pinpoint critical infrastructure hotspots and spatial outliers.
+
+-   **Operational Insights**: Derived actionable management strategies for multi-state coordination based on identified regional clusters.
+
+-   **Reproducible Workflow**: Engineered custom R functions to automate spatial joins and statistical classifications for scalable geographic analysis.
+
+[View »](https://kylerobinette23.github.io/csu-523c/lab-03.html){.btn .btn-primary}
+
+#### **Rasters & Remote Sensing** 
+
+*Multi-index ensemble modeling, unsupervised machine learning, and flood extent quantification*
+
+-   **Data Transformation:** Converted multi-band satellite imagery into a spectral matrix to enable pixel-based statistical analysis.
+
+-   **Unsupervised Learning:** Applied the k-means algorithm to group pixels into 12 distinct spectral classes based on their reflectance signatures.
+
+-   **Automated Labeling:** Used a contingency table to programmatically identify which k-means cluster most closely aligned with known flood water.
+
+-   **Ensemble Consensus:** Summed six different classification methods to create a "certainty map," highlighting areas where all models agreed on the flood's extent.
+
+-   **Areal Quantification:** Scaled pixel counts by the sensor's 30m resolution to calculate the total flooded area in square kilometers.
+
+[View »](https://kylerobinette23.github.io/csu-523c/lab-04.html){.btn .btn-primary}
+
+#### **Machine Learning in Hydrology** 
+
+*Spatial cross-validation and predictive modeling of Colorado River Basin hydrologic drivers and streamflow patterns*
+
+-   **Spatial Autocorrelation Analysis**: Quantified the geographic "signature" of environmental predictors using Moran’s I to identify potential leakage in model training.
+
+-   **Predictor Engineering**: Developed a formula focusing on physical drivers while removing coordinate proxies to ensure model transferability.
+
+-   **Advanced Preprocessing**: Implemented a robust tidymodels recipe featuring median imputation, log transformations for skewed variables, and normalization.
+
+-   **Machine Learning Benchmarking**: Evaluated Random Forest, XGBoost, and Neural Network models, identifying Random Forest as the most robust architecture for regional streamflow prediction.
+
+-   **Model Diagnostics & Tuning**: Optimized hyperparameters via space-filling grids and used Variable Importance (VIP) plots to differentiate between physical mechanisms and spatial proxies.\
+
+[View »](https://kylerobinette23.github.io/csu-523c/lab-05.html){.btn .btn-primary}

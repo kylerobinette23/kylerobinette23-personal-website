@@ -6,7 +6,7 @@ title: "ESS 523A Geospacial Visualization"
 
 ![](Map_assignment.png)
 
--    Built core GIS skills including data cleaning, layer management, and map design.
+-   Built core GIS skills including data cleaning, layer management, and map design.
 
 -   Translated ecological information into clear visual communication, improving my ability to present spatial insights.
 

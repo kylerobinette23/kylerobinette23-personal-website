@@ -1,9 +1,9 @@
 ---
 title: "Kyle Robinette"
-image: IMG_8510.jpg
+image: Headshot-04.jpg
 about: 
   template: jolla
-  image-shape: round
+  image-shape: rounded
   image-width: 15em
   links:
     - text: LinkedIn

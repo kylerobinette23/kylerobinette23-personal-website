@@ -36,7 +36,7 @@ h1, h2, h3, h4 {
    LINKS
    ================================ */
 a {
-  color: var(--wine-medium);
+  color: var(--wine-dark);
   text-decoration: none;
 }
 a:hover {
@@ -52,14 +52,20 @@ a:hover {
   color: var(--text-light) !important;
 }
 
+.navbar .nav-link,
+.quarto-navbar .nav-link,
 .navbar a,
 .quarto-navbar a {
   color: var(--offwhite) !important;
+  opacity: 1; /* Ensures they aren't faded out */
 }
 
+.navbar .nav-link:hover,
+.quarto-navbar .nav-link:hover,
 .navbar a:hover,
 .quarto-navbar a:hover {
   color: var(--wine-light) !important;
+  text-decoration: none;
 }
 
 /* ================================
