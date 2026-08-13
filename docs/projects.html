@@ -69,6 +69,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -140,6 +169,17 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<section id="nps-public-water-system-analysis---water-for-people-project-ross-lab" class="level4">
+<h4 class="anchored" data-anchor-id="nps-public-water-system-analysis---water-for-people-project-ross-lab"><strong>NPS Public Water System Analysis - Water For People Project (ROSS Lab)</strong></h4>
+<p><em>Developed an interactive spatial analysis framework and multi-criteria decision model to evaluate infrastructure strain across National Park Service (NPS) Public Water Systems (PWS).</em></p>
+<ul>
+<li><p><strong>Engineered a System Priority Index (SPI):</strong> Built a weighted MCDA risk model combining <strong>Allocated Visitor Footprint (35%)</strong>, <strong>System Capacity Strain (35%)</strong>, and <strong>Source Water Vulnerability (30%)</strong> to give decision-makers a single defensible priority metric (<span class="math inline">\(0\text{--}100\)</span>).</p></li>
+<li><p><strong>Data Integration &amp; Spatial Allocation:</strong> Cleaned and combined multi-year NPS IRMA visitor traffic datasets with EPA Safe Drinking Water Information System (SDWIS) baseline metrics. Distributed park-level visitor surges across individual sub-systems using capacity ratios.</p></li>
+<li><p><strong>Statistical Normalization:</strong> Applied quintile binning (<code>ntile</code>) to standardize highly skewed visitor numbers alongside logarithmic visual scaling (<span class="math inline">\(\log_{10}\)</span>) for interactive plotting.</p></li>
+<li><p><strong>Interactive Web Deployment:</strong> Rendered and published a fully interactive Quarto dashboard utilizing Plotly and Leaflet spatial maps hosted live on GitHub Pages.</p></li>
+</ul>
+<p><a href="https://kylerobinette23.github.io/NPS_PWS/" class="btn btn-primary">View »</a></p>
+</section>
 <section id="colorado-river-hydrology" class="level4">
 <h4 class="anchored" data-anchor-id="colorado-river-hydrology"><strong>Colorado River Hydrology</strong></h4>
 <p><em>Analysis of flow trends, peak timing, and predictive modeling at Lees Ferry</em></p>
