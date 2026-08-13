@@ -2,7 +2,21 @@
 title: "Projects"
 ---
 
-#### **Colorado River Hydrology** 
+#### **NPS Public Water System Analysis - Water For People Project (ROSS Lab)**
+
+*Developed an interactive spatial analysis framework and multi-criteria decision model to evaluate infrastructure strain across National Park Service (NPS) Public Water Systems (PWS).*
+
+-   **Engineered a System Priority Index (SPI):** Built a weighted MCDA risk model combining **Allocated Visitor Footprint (35%)**, **System Capacity Strain (35%)**, and **Source Water Vulnerability (30%)** to give decision-makers a single defensible priority metric ($0\text{--}100$).
+
+-   **Data Integration & Spatial Allocation:** Cleaned and combined multi-year NPS IRMA visitor traffic datasets with EPA Safe Drinking Water Information System (SDWIS) baseline metrics. Distributed park-level visitor surges across individual sub-systems using capacity ratios.
+
+-   **Statistical Normalization:** Applied quintile binning (`ntile`) to standardize highly skewed visitor numbers alongside logarithmic visual scaling ($\log_{10}$) for interactive plotting.
+
+-   **Interactive Web Deployment:** Rendered and published a fully interactive Quarto dashboard utilizing Plotly and Leaflet spatial maps hosted live on GitHub Pages.
+
+[View »](https://kylerobinette23.github.io/NPS_PWS/){.btn .btn-primary}
+
+#### **Colorado River Hydrology**
 
 *Analysis of flow trends, peak timing, and predictive modeling at Lees Ferry*
 
@@ -20,7 +34,7 @@ title: "Projects"
 
 [View »](https://kylerobinette23.github.io/csu-523c/lab-01.html){.btn .btn-primary}
 
-#### **Spacial Analysis: Distances and Projections** 
+#### **Spacial Analysis: Distances and Projections**
 
 *Spatial analysis of urban demographic exposure within the 100-mile federal border jurisdiction*
 
@@ -38,7 +52,7 @@ title: "Projects"
 
 [View »](https://kylerobinette23.github.io/csu-523c/lab-02.html){.btn .btn-primary}
 
-#### **Modifiable areal unit problem - Polygons & Tessellations** 
+#### **Modifiable areal unit problem - Polygons & Tessellations**
 
 *Multi-scale assessment of U.S. dam distribution using advanced spatial statistics and custom tessellation workflows*
 
@@ -56,7 +70,7 @@ title: "Projects"
 
 [View »](https://kylerobinette23.github.io/csu-523c/lab-03.html){.btn .btn-primary}
 
-#### **Rasters & Remote Sensing** 
+#### **Rasters & Remote Sensing**
 
 *Multi-index ensemble modeling, unsupervised machine learning, and flood extent quantification*
 
@@ -72,7 +86,7 @@ title: "Projects"
 
 [View »](https://kylerobinette23.github.io/csu-523c/lab-04.html){.btn .btn-primary}
 
-#### **Machine Learning in Hydrology** 
+#### **Machine Learning in Hydrology**
 
 *Spatial cross-validation and predictive modeling of Colorado River Basin hydrologic drivers and streamflow patterns*
 
